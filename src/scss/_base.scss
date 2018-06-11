@@ -1,0 +1,32 @@
+// COLOR VARIABLES
+$color-primary: #393939;
+$color-secondary: #393939;
+$color-bg: #5C016A;
+$color-title: #6E0095;
+$color-bg-s: #EBECEC;
+
+// FONT VARIABLES
+$font-primary: 'Arial', sans-serif;
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; // 10px = 1rem
+
+}
+
+body {
+    font-family: $font-primary;
+    color: $color-primary;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
